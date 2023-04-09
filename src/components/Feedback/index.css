@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffebeb, #ffc0bb);
+  height: 100vh;
+}
+
+.inside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500xp;
+  height: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.main-emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}

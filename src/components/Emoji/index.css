@@ -1,0 +1,17 @@
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  height: 70px;
+  width: 70px;
+}
+
+.name {
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
